@@ -1,0 +1,15 @@
+package org.acme;
+
+import io.quarkus.hibernate.reactive.panache.PanacheRepository;
+import io.smallrye.mutiny.Uni;
+import jakarta.enterprise.context.ApplicationScoped;
+
+@ApplicationScoped
+public class AgenciaRepository implements PanacheRepository<Agencia> {
+
+    public Uni<Agencia> findByCnpj(String cnpj) {
+        return find("cnpj", cnpj).firstResult();
+    }
+    
+
+}
