@@ -7,7 +7,7 @@
   <name>studio-quarkus</name>
   <modules>
     <module>quarkus-integration</module>
-    <module>quarkus-services</module>
+    <module>quarkus-security</module>
     <module>quarkus-reactive</module>
   </modules>
 </project>
