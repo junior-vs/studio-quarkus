@@ -6,8 +6,11 @@ import jakarta.jws.WebService;
 import java.util.List;
 
 
-@WebService
+@WebService()
 public interface CalculatorService {
+
+    public static final String TARGET_NS =  "http://wscalculator.services.quarkus.studio.br/";
+
 
     @WebMethod
     public Integer add(Integer a, Integer b);

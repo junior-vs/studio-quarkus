@@ -5,7 +5,7 @@ import jakarta.jws.WebService;
 import java.util.List;
 import java.util.stream.IntStream;
 
-@WebService
+@WebService(serviceName = "CalculatorService", portName = "Calculator", name = "Calculator", endpointInterface = "br.studio.quarkus.services.wscalculator.CalculatorService")
 public class CalculatorServiceImpl implements CalculatorService {
 
     @Override

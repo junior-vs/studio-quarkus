@@ -9,10 +9,10 @@ import java.util.Objects;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "result", propOrder = {
-        "operands",
-        "result",
-        "even",
-        "theAnswer"
+    "operands",
+    "result",
+    "even",
+    "theAnswer"
 })
 public class Result {
 
