@@ -6,12 +6,9 @@
     <groupId>br.studio.quarkus</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>br.studio.quarkus.integration</groupId>
-  <artifactId>quarkus-integration</artifactId>
+  <groupId>br.studio.quarkus.security</groupId>
+  <artifactId>quarkus-security</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>quarkus-integration</name>
-  <modules>
-    <module>rest-service</module>
-  </modules>
+  <name>quarkus-security</name>
 </project>
